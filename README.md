@@ -1,2 +1,1 @@
-"# alpine-config-files"  git init 
-"# alpine-config-files" 
+# Alpine config files

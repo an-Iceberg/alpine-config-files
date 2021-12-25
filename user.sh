@@ -27,6 +27,7 @@ cp .config/sxhkd/sxhkdrc     /home/kazul/.config/sxhkd/
 cp .profile /home/kazul/
 cp .xinitrc /home/kazul/
 cp .Xresources /home/kazul/
+cp .fehbg /home/kazul/
 
 cp Wallpapers/wallpaper_1280x720.jpg /home/kazul/Wallpapers/wallpapers_1280x720.jpg
 

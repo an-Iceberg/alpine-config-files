@@ -1,3 +1,5 @@
+#! /bin/sh
+
 mkdir /home/kazul/.config
 mkdir /home/kazul/.config/bspwm
 #mkdir /home/kazul/.config/fish

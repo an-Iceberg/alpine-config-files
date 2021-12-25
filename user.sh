@@ -31,7 +31,7 @@ cp .xinitrc /home/kazul/
 cp .Xresources /home/kazul/
 cp .fehbg /home/kazul/
 
-cp Wallpapers/wallpaper_1280x720.jpg /home/kazul/Wallpapers/
+cp Wallpapers/wallpaper_1920x1080.jpg /home/kazul/Wallpapers/
 
 #chsh -s /usr/bin/fish
 chmod +x /home/kazul/.config/bspwm/bspwmrc

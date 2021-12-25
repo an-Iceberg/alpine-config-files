@@ -35,3 +35,6 @@ cp Wallpapers/wallpaper_1920x1080.jpg /home/kazul/Wallpapers/
 
 chmod +x /home/kazul/.config/bspwm/bspwmrc
 chmod +x /home/kazul/.config/polybar/launch.sh
+
+curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
+  https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim

@@ -1,0 +1,3 @@
+#! /bin/sh
+
+feh --no-fehbg --bg-scale '/home/kazul/Wallpapers/wallpaper_1920x1080.jpg'

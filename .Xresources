@@ -1,0 +1,11 @@
+XTerm.termName: xterm-256color
+XTerm*saveLines: 1000
+XTerm*background: black
+XTerm*foreground: white
+XTerm*vt100.background: black
+XTerm*vt100.foreground: white
+*foreground: white
+*background: black
+
+XTerm.vt100.faceName: Victor\ Mono\ Medium\ Nerd\ Font\ Complete:size=8
+XTerm.vt100.font: Victor\ Mono\ Medium\ Nerd\ Font\ Complete:size=8

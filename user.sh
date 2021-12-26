@@ -11,6 +11,7 @@ mkdir /home/kazul/.config/polybar
 #mkdir /home/kazul/.config/ranger
 mkdir /home/kazul/.config/rofi
 mkdir /home/kazul/.config/sxhkd
+mkdir /home/kazul/.config/powerline-shell
 
 mkdir /home/kazul/Wallpapers
 
@@ -25,6 +26,7 @@ cp .config/polybar/launch.sh /home/kazul/.config/polybar/
 #cp .config/ranger/           /home/kazul/.config/ranger/
 cp .config/rofi/config       /home/kazul/.config/rofi/
 cp .config/sxhkd/sxhkdrc     /home/kazul/.config/sxhkd/
+cp .config/powerline-shell/config.json     /home/kazul/.config/powerline-shell/
 
 cp .profile /home/kazul/
 cp .xinitrc /home/kazul/

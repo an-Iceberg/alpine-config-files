@@ -94,18 +94,18 @@ pin-workspaces = true
 
 label-focused = %{F#8a2be2}%{B#000}%{F#fff}%{B#8a2be2}%index%%{F#8a2be2}%{B#000}
 ;label-focused-background = ${colors.background-alt}
-label-focused-padding = 1
+label-focused-padding = 0
 
-label-occupied = %{F#fff}%index%%icon%
-label-occupied-padding = 1
+label-occupied = %{F#000}%{B#000}%{F#fff}%{B#000}%index%%{F#000}%{B#000}
+label-occupied-padding = 0
 
 label-urgent = %index%!
 label-urgent-background = ${colors.alert}
-label-urgent-padding = 1
+label-urgent-padding = 0
 
-label-empty = %index%%icon%
+label-empty = %{F#000}%{B#000}%{F#555}%{B#000}%index%%{F#000}%{B#000}
 label-empty-foreground = ${colors.foreground-alt}
-label-empty-padding = 1
+label-empty-padding = 0
 
 ; Separator in between workspaces
 ;label-separator = 

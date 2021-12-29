@@ -74,7 +74,7 @@ type = internal/xkeyboard
 format-spacing = 0
 format = <label-layout><label-indicator>
 
-label-layout = %{F#0f0}%{B#000}%{F#000}%{B#0f0}%{T2}%{T-} %layout%
+label-layout = %{F#0f0}%{B#000}%{F#000}%{B#0f0}%{T2}%{T-} %layout%
 ;label-layout-underline = ${colors.secondary}
 
 label-indicator-padding = 0
@@ -96,14 +96,14 @@ label-focused = %{F#8a2be2}%{B#000}%{F#fff}%{B#8a2be2}%index%%{F#8a2be2}%{B#0
 ;label-focused-background = ${colors.background-alt}
 label-focused-padding = 0
 
-label-occupied = %{F#000}%{B#000}%{F#fff}%{B#000}%index%%{F#000}%{B#000}
+label-occupied = %{F#000}%{B#000}%{F#fff}%{B#010101}%index%%{F#000}%{B#000}
 label-occupied-padding = 0
 
 label-urgent = %index%!
 label-urgent-background = ${colors.alert}
 label-urgent-padding = 0
 
-label-empty = %{F#000}%{B#000}%{F#555}%{B#000}%index%%{F#000}%{B#000}
+label-empty = %{F#000}%{B#000}%{F#555}%{B#010101}%index%%{F#000}%{B#000}
 label-empty-foreground = ${colors.foreground-alt}
 label-empty-padding = 0
 
@@ -114,7 +114,7 @@ label-empty-padding = 0
 type = internal/cpu
 interval = 1
 
-label = %{F#0ff}%{B#000}%{B#0ff}%{F#000}%{T2}%{T-} %percentage:2%%%{F#000}%{B#0ff}
+label = %{F#0ff}%{B#000}%{B#0ff}%{F#000}%{T2}%{T-} %percentage:2%%%{F#000}%{B#0ff}
 
 format = <label>
 
@@ -124,7 +124,7 @@ interval = 1
 format-prefix = " "
 format-prefix-foreground = ${colors.foreground-alt}
 ; format-underline = #4bffdc
-label = %{F#f70}%{B#000}%{F#000}%{B#f70}%{T2}%{T-} %percentage_used%%%{F#000}%{B#f70}
+label = %{F#f70}%{B#000}%{F#000}%{B#f70}%{T2}%{T-} %percentage_used%%%{F#000}%{B#f70}
 
 [module/wlan]
 type = internal/network
@@ -178,7 +178,7 @@ format-prefix = 
 format-prefix-foreground = ${colors.foreground-alt}
 ; format-underline = #0a6cf5
 
-label = %{F#f0f}%{B#000}%{F#000}%{B#f0f}%date%%{T2}%{T-} %time%
+label = %{F#f0f}%{B#000}%{F#000}%{B#f0f}%date%%{T2}%{T-} %time%
 
 [module/pulseaudio]
 type = internal/pulseaudio
@@ -216,7 +216,7 @@ full-at = 99
 format-charging = <animation-charging> <label-charging>
 ; format-charging-underline = #ffb52a
 
-format-discharging = %{F#000}%{B#ff0}%{F#000}%{B#ff0}<animation-discharging> <label-discharging>%{F#ff0}%{B#000}
+format-discharging = %{F#000}%{B#ff0}%{F#000}%{B#ff0}<animation-discharging> <label-discharging>%{F#ff0}%{B#000}
 ;format-discharging-underline = ${self.format-charging-underline}
 
 format-full-prefix = " "

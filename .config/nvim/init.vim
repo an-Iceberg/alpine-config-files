@@ -24,22 +24,20 @@ endif
 
 call plug#begin(has('nvim') ? stdpath('data') . '/plugged' : '~/.vim/plugged')
 Plug 'tpope/vim-fugitive'
-" Plug 'scrooloose/nerdtree'
 Plug 'airblade/vim-gitgutter'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'mattn/emmet-vim'
-" Plug 'junegunn/fzf'
+Plug 'junegunn/fzf'
 Plug 'sheerun/vim-polyglot'
 Plug 'ap/vim-css-color'
 Plug 'ryanoasis/vim-devicons'
-" Plug 'Xuyuanp/nerdtree-git-plugin'
-" Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
 " Plug 'ctrlpvim/ctrlp.vim'
-Plug 'junegunn/fzf.vim', { 'do:': { -> fzf#install() }}
+Plug 'junegunn/fzf', { 'do:': { -> fzf#install() }}
+Plug 'junegunn/fzf.vim'
 Plug 'airblade/vim-rooter'
-Plug 'pacokwon/onedarkhc.vim'
-
+Plug 'Mofiqul/dracula.nvim'
+Plug 'junegunn/rainbow_parentheses.vim'
 call plug#end()
 
 " autocmd VimEnter * NERDTree | wincmd p
@@ -48,14 +46,22 @@ call plug#end()
 
 " autocmd BufWinEnter * NERDTreeMirror
 
-colorscheme onedarkhc
+colorscheme dracula
 
 let g:airline_left_sep=''
 let g:airline_right_sep=''
 let g:airline_detect_modified=1
 let g:airline_detect_paste=1
 let g:airline_theme='violet'
+let g:rainbow#pairs = [['(', ')'], ['[', ']'], ['{', '}']]
 
 highlight CursorLine ctermbg=Black cterm=NONE
 highlight CursorColumn ctermbg=Black
 highlight Comment cterm=italic ctermfg=Yellow
+
+highlight CursorLine guibg=Black gui=NONE
+highlight CursorColumn guibg=Black
+highlight Comment gui=italic guifg=Yellow
+
+autocmd VimEnter * Rainbowarentheses
+" autocmd VimEnter * GitGutterEnable

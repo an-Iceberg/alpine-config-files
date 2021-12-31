@@ -1,0 +1,5 @@
+TODO:
+  - move powerline binary to /bin
+  - set feh background
+  - set rofi color scheme
+  - run 'omf install https://github.com/dracula/fish'

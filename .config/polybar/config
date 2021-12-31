@@ -114,7 +114,7 @@ label-empty-padding = 0
 type = internal/cpu
 interval = 1
 
-label = %{F#0ff}%{B#000}%{B#0ff}%{F#000}%{T2}%{T-} %percentage:2%%%{F#0ff}%{B#000}
+label = %{F#0ff}%{B#000}%{B#0ff}%{F#000}%{T2}%{T-} %percentage:2%%%{F#0ff}%{B#000}
 
 format = <label>
 
@@ -178,7 +178,7 @@ format-prefix = 
 format-prefix-foreground = ${colors.foreground-alt}
 ; format-underline = #0a6cf5
 
-label = %{F#f0f}%{B#000}%{F#000}%{B#f0f}%date%%{T2}%{T-} %time%%{F#f0f}%{B#000}
+label = %{F#f0f}%{B#000}%{F#000}%{B#f0f}%date%%{T2}%{T-} %time%%{F#f0f}%{B#000}
 
 [module/pulseaudio]
 type = internal/pulseaudio
@@ -216,7 +216,7 @@ full-at = 99
 format-charging = <animation-charging> <label-charging>
 ; format-charging-underline = #ffb52a
 
-format-discharging = %{F#000}%{B#ff0}%{F#000}%{B#ff0}<animation-discharging> <label-discharging>%{F#ff0}%{B#000}
+format-discharging = %{F#000}%{B#ff0}%{F#000}%{B#ff0}<animation-discharging> <label-discharging>%{F#ff0}%{B#000}
 ;format-discharging-underline = ${self.format-charging-underline}
 
 format-full-prefix = " "

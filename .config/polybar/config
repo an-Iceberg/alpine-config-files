@@ -216,7 +216,7 @@ full-at = 99
 format-charging = <animation-charging> <label-charging>
 ; format-charging-underline = #ffb52a
 
-format-discharging = %{F#000}%{B#ff0}%{F#000}%{B#ff0}<animation-discharging> <label-discharging>%{F#ff0}%{B#000}
+format-discharging = %{F#000}%{B#ff0}%{F#000}%{B#ff0}<animation-discharging> <label-discharging>%{F#ff0}%{B#000}
 ;format-discharging-underline = ${self.format-charging-underline}
 
 format-full-prefix = " "

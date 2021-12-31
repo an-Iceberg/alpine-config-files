@@ -2,7 +2,7 @@
 
 mkdir /home/kazul/.config
 mkdir /home/kazul/.config/bspwm
-#mkdir /home/kazul/.config/fish
+mkdir /home/kazul/.config/fish
 #mkdir /home/kazul/.config/kitty
 mkdir /home/kazul/.config/neofetch
 mkdir /home/kazul/.config/nvim
@@ -16,7 +16,7 @@ mkdir /home/kazul/.config/powerline-shell
 mkdir /home/kazul/Wallpapers
 
 cp .config/bspwm/bspwmrc     /home/kazul/.config/bspwm/
-#cp .config/fish/config.fish  /home/kazul/.config/fish/config.fish
+cp .config/fish/config.fish  /home/kazul/.config/fish/config.fish
 #cp .config/kitty/kitty.conf  /home/kazul/.config/kitty/kitty.conf
 #cp .config/neofetch/         /home/kazul/.config/neofetch/
 cp .config/nvim/init.vim     /home/kazul/.config/nvim/

@@ -67,6 +67,6 @@ highlight CursorLine guibg=Black gui=NONE
 highlight CursorColumn guibg=Black
 highlight Comment gui=italic guifg=Yellow
 
-autocmd VimEnter * Rainbowarentheses
+autocmd VimEnter * RainbowParentheses
 " autocmd VimEnter * GitGutterEnable
 autocmd VimEnter * BlamerShow

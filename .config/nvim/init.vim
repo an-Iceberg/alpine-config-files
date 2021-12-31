@@ -32,12 +32,12 @@ Plug 'junegunn/fzf'
 Plug 'sheerun/vim-polyglot'
 Plug 'ap/vim-css-color'
 Plug 'ryanoasis/vim-devicons'
-" Plug 'ctrlpvim/ctrlp.vim'
 Plug 'junegunn/fzf', { 'do:': { -> fzf#install() }}
 Plug 'junegunn/fzf.vim'
 Plug 'airblade/vim-rooter'
 Plug 'Mofiqul/dracula.nvim'
 Plug 'junegunn/rainbow_parentheses.vim'
+Plug 'APZelos/blamer.nvim'
 call plug#end()
 
 " autocmd VimEnter * NERDTree | wincmd p
@@ -54,6 +54,10 @@ let g:airline_detect_modified=1
 let g:airline_detect_paste=1
 let g:airline_theme='violet'
 let g:rainbow#pairs = [['(', ')'], ['[', ']'], ['{', '}']]
+let g:cpp_function_highlight=1
+let g:cpp_attributes_highlight=1
+let g:cpp_member_highlight=1
+let g:cpp_simple_highlight=1
 
 highlight CursorLine ctermbg=Black cterm=NONE
 highlight CursorColumn ctermbg=Black
@@ -65,3 +69,4 @@ highlight Comment gui=italic guifg=Yellow
 
 autocmd VimEnter * Rainbowarentheses
 " autocmd VimEnter * GitGutterEnable
+autocmd VimEnter * BlamerShow

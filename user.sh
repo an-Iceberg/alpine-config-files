@@ -25,6 +25,7 @@ cp .config/polybar/config    /home/kazul/.config/polybar/
 cp .config/polybar/launch.sh /home/kazul/.config/polybar/
 #cp .config/ranger/           /home/kazul/.config/ranger/
 cp .config/rofi/config       /home/kazul/.config/rofi/
+cp .config/rofi/config.rasi       /home/kazul/.config/rofi/
 cp .config/sxhkd/sxhkdrc     /home/kazul/.config/sxhkd/
 cp .config/powerline-shell/config.json     /home/kazul/.config/powerline-shell/
 

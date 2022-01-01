@@ -43,4 +43,4 @@ curl https://raw.githubusercontent.com/oh-my-fish/oh-my-fish/master/bin/install 
 curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
   https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 
-pip install powerline-shell
+#pip install powerline-shell

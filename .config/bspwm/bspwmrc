@@ -4,7 +4,7 @@ pgrep -x sxhkd > /dev/null || sxhkd &
 setxkbmap ch &
 xrandr -s 1280x720 &
 xrdb -load .Xresources
-~/.fehbg &
+~/.fehbg
 pkill picom
 picom &
 ~/.config/polybar/launch.sh

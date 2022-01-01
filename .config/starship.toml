@@ -1,8 +1,7 @@
-add_newline = false
+format = '''
+[](bg:black fg:red)[](fg:red bg:blue)[⌈](fg:white bg:blue)$directory[⌋](fg:white bg: blue)
+[╰](bg:black fg:white)[](bg:black fg:white)[](bg:black fg:green)[](fg:green bg:blue)[](fg:orange bg:blue)[λ](fg:yellow bg:blue)[](fg:orange bg:green)[](fg:orange bg:blue)[](fg:blue bg:black)
 
-[character]
-success_symbol = "[](bold green)"
-
-[package]
-disabled = true
+[directory]
+format = "[$path](fg:white bg:blue)"
 

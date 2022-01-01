@@ -4,7 +4,7 @@ background-alt = #8be9fd
 foreground = #f8f8f2
 foreground-alt = #44475a
 primary = #ffb86c
-secondary = #ff5555
+secondary = #ff6e67
 alert = #ff5555
 
 [bar/example]
@@ -74,7 +74,7 @@ type = internal/xkeyboard
 format-spacing = 0
 format = <label-layout><label-indicator>
 
-label-layout = %{F#50fa7b}%{B#282a36}%{F#282a36}%{B#50fa7b}%{T2}%{T-} %layout%%{F#50fa7b}%{B#282a36}
+label-layout = %{F#50fa7b}%{B#000}%{F#000}%{B#50fa7b}%{T2}%{T-} %layout%%{F#50fa7b}%{B#000}
 ;label-layout-underline = ${colors.secondary}
 
 label-indicator-padding = 0
@@ -216,7 +216,7 @@ full-at = 99
 format-charging = <animation-charging> <label-charging>
 ; format-charging-underline = #ffb52a
 
-format-discharging = %{F#000}%{B#f1fa8c}%{F#000}%{B#f1fa8c}<animation-discharging> <label-discharging>%{F#f1fa8c}%{B#000}
+format-discharging = %{F#f1fa8c}%{B#000}%{F#000}%{B#f1fa8c}<animation-discharging> <label-discharging>%{F#f1fa8c}%{B#000}
 ;format-discharging-underline = ${self.format-charging-underline}
 
 format-full-prefix = " "

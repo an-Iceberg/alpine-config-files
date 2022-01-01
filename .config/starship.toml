@@ -4,5 +4,5 @@ add_newline = false
 success_symbol = "[](bold green)"
 
 [package]
-disable = true
+disabled = true
 

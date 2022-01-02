@@ -14,8 +14,8 @@ format = "[$path](bg:#6272a4 fg:#f8f8f2)"
 [character]
 disabled = false
 format = "$symbol"
-success_symbol = "[λ](bg:# fg:#50fa7b)"
-error_symbol = "[χ](bg:# fg:#ff5555)"
+success_symbol = "[λ](bg:#bd93f9 fg:#50fa7b)"
+error_symbol = "[χ](bg:#bd93f9 fg:#ff5555)"
 
 [time]
 disabled = false

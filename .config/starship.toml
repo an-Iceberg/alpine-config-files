@@ -5,7 +5,7 @@ format = '''
 [  ╰](bg:#282a36 fg:#f8f8f2)[](bg:#282a36 fg:#ffb86c)[](bg:#bd93f9 fg:#ffb86c)[  $character ](bg:#bd93f9 fg:#f8f8f2)[](bg:#bd93f9 fg:#8be9fd)[](bg:#bd93f9 fg:#f1fa8c)[](bg:#bd93f9 fg:#8be9fd)[](bg:#bd93f9 fg:#f1fa8c)[](bg:#282a36 fg:#bd93f9) '''
 
 right_format = '''
-[](bg:#282a36 fg:#8be9fd)$username[@](bg:#8be9fd fg:#ff92df)$hostname[](bg:#282a36 fg:#8be9fd)'''
+[](bg:#282a36 fg:#8be9fd)$username[ @ ](bg:#8be9fd fg:#ff92df)$hostname[](bg:#282a36 fg:#8be9fd)'''
 
 [fill]
 disabled = false

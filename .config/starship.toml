@@ -2,7 +2,7 @@
 
 format = '''
 [](bg:#282a36 fg:#ff5555)[](bg:#6272a4 fg:#ff5555)[⌈$directory⌋](bg:#6272a4 fg:#f8f8f2)[](bg:#6272a4 fg:#8be9fd)$git_branch[](bg:#282a36 fg:#8be9fd)
-[  ╰](bg:#282a36 fg:#f8f8f2)[](bg:#bd93f9 fg:#282a36)[ $character ](bg:#bd93f9 fg:#f8f8f2)[](bg:#282a36 fg:#bd93f9) '''
+[  ╰](bg:#282a36 fg:#f8f8f2)[](bg:#bd93f9 fg:#282a36)[ $character ](bg:#bd93f9 fg:#f8f8f2)[](bg:#282a36 fg:#bd93f9) '''
 
 right_format = '''
 $time $username[@](fg:#ff92df)$hostname'''
@@ -14,7 +14,7 @@ format = "[$path](bg:#6272a4 fg:#f8f8f2)"
 [character]
 disabled = false
 format = "$symbol"
-success_symbol = "[λ](bg:#bd93f9 fg:#ff79c6)"
+success_symbol = "[λ](bg:#bd93f9 fg:#50fa7b)"
 error_symbol = "[χ](bg:#bd93f9 fg:#ff5555)"
 
 [time]

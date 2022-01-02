@@ -1,9 +1,8 @@
 # λ █                                
-# ➤ ➢ 
 
 format = '''
-[](bg:#282a36 fg:#ff5555)[](bg:#6272a4 fg:ff5555)[⌈$directory⌋](bg:#6272a4 fg:#f8f8f2)[](bg:#8be9fd fg:#6272a4)[](bg:#282a36 fg:#8be9fd)
-[╰➢ ](bg:#282a36 fg:#f8f8f2)[](bg:#282a36 fg:#bd93f9)[$characterΞ](bg:#bd93f9 fg:f8f8f2)[](bg:#282a36 fg:#bd93f9)'''
+[](bg:#282a36 fg:#ff5555)[](bg:#6272a4 fg:#ff5555)[⌈$directory⌋](bg:#6272a4 fg:#f8f8f2)[](bg:#8be9fd fg:#6272a4)[](bg:#282a36 fg:#8be9fd)
+[╰](bg:#282a36 fg:#f8f8f2)[](bg:#282a36 fg:#bd93f9)[$characterΞ](bg:#bd93f9 fg:f8f8f2)[](bg:#282a36 fg:#bd93f9) '''
 
 right_format = '''
 $time $username[@](fg:#ff92df)$hostname'''

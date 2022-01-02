@@ -20,7 +20,7 @@ error_symbol = "[](bg:#bd93f9 fg:#ff5555)"
 [time]
 disabled = false
 format = "[$time](bg:#bd93f9 fg:#f1fa8c)"
-time_format = "%H:%M  %a%e %b %Y"
+time_format = "%H:%M [](bg:#bd93f9 fg:#ff79c6) %a%e %b %Y"
 
 [username]
 disabled = false

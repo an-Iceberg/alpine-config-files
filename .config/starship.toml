@@ -2,7 +2,7 @@
 
 format = '''
 [](bg:#282a36 fg:#ff5555)[](bg:#6272a4 fg:#ff5555)[⌈$directory⌋](bg:#6272a4 fg:#f8f8f2)[](bg:#6272a4 fg:#8be9fd)$git_branch[](bg:#8be9fc fg:#282a36)[](bg:#282a36 fg:#8be9fd)
-[  ╰](bg:#282a36 fg:#f8f8f2)[](bg:#282a36 fg:#ffb86c)[](bg:#ffb86c fg:#bd93f9)[ $character  黎黎黎](bg:#bd93f9 fg:#f8f8f2)[](bg:#282a36 fg:#bd93f9) '''
+[  ╰](bg:#282a36 fg:#f8f8f2)[](bg:#282a36 fg:#ffb86c)[](bg:#bd93f9 fg:#ffb86c)[ $character ](bg:#bd93f9 fg:#f8f8f2)[](bg:#282a36 fg:#bd93f9) '''
 
 right_format = '''
 []()$time[]()$username[@](fg:#ff92df)$hostname[]()'''

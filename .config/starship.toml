@@ -1,8 +1,8 @@
 # λ █                                
 
 format = '''
-[](bg:#282a36 fg:#ff5555)[](bg:#6272a4 fg:#ff5555)[⌈$directory⌋](bg:#6272a4 fg:#f8f8f2)[](bg:#6272a4 fg:#8be9fd)$git_branch[](bg:#8be9fc fg:#282a36)[](bg:#282a36 fg:#8be9fd)
-[  ╰](bg:#282a36 fg:#f8f8f2)[](bg:#282a36 fg:#ffb86c)[](bg:#bd93f9 fg:#ffb86c)[  $character ](bg:#bd93f9 fg:#f8f8f2)[](bg:#282a36 fg:#bd93f9) '''
+[](bg:#282a36 fg:#ff5555)[](bg:#6272a4 fg:#ff5555)[⌈$directory⌋](bg:#6272a4 fg:#f1fa8c)[](bg:#6272a4 fg:#8be9fd)$git_branch[](bg:#8be9fc fg:#282a36)[](bg:#282a36 fg:#8be9fd)
+[  ╰](bg:#282a36 fg:#f8f8f2)[](bg:#282a36 fg:#ffb86c)[](bg:#bd93f9 fg:#ffb86c)[  $character ](bg:#bd93f9 fg:#f8f8f2)[](bg:#bd93f9 fg:#ffb86c)[](bg:#bd93f9 fg:#ff79c6)[](bg:#bd93f9 fg:#8be9fc)[](bg:#282a36 fg:#bd93f9) '''
 
 right_format = '''
 [](bg:#282a36 fg:#bd93f9)$time[](bg:#bd93f9)$username[@](fg:#ff92df)$hostname[]()'''
@@ -20,7 +20,7 @@ error_symbol = "[](bg:#bd93f9 fg:#ff5555)"
 [time]
 disabled = false
 format = "[$time](bg:#bd93f9 fg:#f1fa8c)"
-time_format = "%H:%M%a%e %b %Y"
+time_format = "%H:%M  %a%e %b %Y"
 
 [username]
 disabled = false

@@ -2,7 +2,7 @@
 
 format = '''
 [](bg:#282a36 fg:#ff5555)[](bg:#6272a4 fg:#ff5555)[⌈$directory⌋](bg:#6272a4 fg:#f8f8f2)[](bg:#6272a4 fg:#8be9fd)$git_branch[](bg:#282a36 fg:#8be9fd)
-[  ╰](bg:#282a36 fg:#f8f8f2)[](bg:#282a36 fg:#bd93f9)[$character ](bg:#bd93f9 fg:#f8f8f2)[](bg:#282a36 fg:#bd93f9) '''
+[  ╰](bg:#282a36 fg:#f8f8f2)[](bg:#282a36 fg:#bd93f9)[ $character ](bg:#bd93f9 fg:#f8f8f2)[](bg:#282a36 fg:#bd93f9) '''
 
 right_format = '''
 $time $username[@](fg:#ff92df)$hostname'''
@@ -20,7 +20,7 @@ error_symbol = "[χ](bg:#bd93f9 fg:#ff5555)"
 [time]
 disabled = false
 format = "[$time](bg:# fg:#)"
-time_format = "%H:%M %a%e %b %Y"
+time_format = "%H:%M%a%e %b %Y"
 
 [username]
 disabled = false
@@ -35,6 +35,6 @@ format = "[$hostname](bg:# fg:#)"
 [git_branch]
 disabled = false
 always_show_remote = true
-format = "[](bg:#ffb86c fg:#8be9fd)[$symbol $remote_name  $branch](bg:#ffb86c fg:#21222c)[](bg:#8be9fd fg:#ffb86c)"
-symbol = ""
+format = "[](bg:#ffb86c fg:#8be9fd)[$symbol $remote_name  >>>  $branch](bg:#ffb86c fg:#21222c)[](bg:#8be9fd fg:#ffb86c)"
+symbol = ""
 

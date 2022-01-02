@@ -1,7 +1,34 @@
+# λ █                                
+# ➤ ➢ 
+
 format = '''
-[](bg:black fg:red)[](fg:red bg:blue)[⌈](fg:white bg:blue)$directory[⌋](fg:white bg: blue)
-[╰](bg:black fg:white)[](bg:black fg:white)[](bg:black fg:green)[](fg:green bg:blue)[](fg:orange bg:blue)[λ](fg:yellow bg:blue)[](fg:orange bg:green)[](fg:orange bg:blue)[](fg:blue bg:black)
+[](bg:#282a36 fg:#ff5555)[](bg:#6272a4 fg:ff5555)[⌈$directory⌋](bg:#6272a4 fg:#f8f8f2)[](bg:#8be9fd fg:#6272a4)[](bg:#282a36 fg:#8be9fd)
+[╰➢ ](bg:#282a36 fg:#f8f8f2)[](bg:#282a36 fg:#bd93f9)[$characterΞ](bg:#bd93f9 fg:f8f8f2)[](bg:#282a36 fg:#bd93f9)'''
+
+right_format = '''
+$time $username[@](fg:#ff92df)$hostname'''
 
 [directory]
-format = "[$path](fg:white bg:blue)"
+disabled = false
+format = "[$path](bg:#6272a4 fg:#f8f8f2)"
 
+[character]
+disabled = false
+format = "$symbol"
+success_symbol = "[λ](bg:# fg:#50fa7b)"
+error_symbol = "[χ](bg:# fg:#ff5555)"
+
+[time]
+disabled = false
+format = "[$time](bg:# fg:#)"
+time_format = "%H:%M %a %e %b %Y"
+
+[username]
+disabled = false
+show_always = true
+format = "[$user](bg:# fg:#)"
+
+[hostname]
+disabled = false
+ssh_only = false
+format = "[$hostname](bg:# fg:#)"

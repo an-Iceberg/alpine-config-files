@@ -27,6 +27,7 @@ cp .config/polybar/launch.sh /home/kazul/.config/polybar/
 cp .config/rofi/config       /home/kazul/.config/rofi/
 cp .config/rofi/config.rasi       /home/kazul/.config/rofi/
 #cp .config/powerline-shell/config.json     /home/kazul/.config/powerline-shell/
+cp .config/sxhkd/sxhkdrc /home/kazul/.config/sxhkd/
 cp .config/starship.toml /home/kazul/.config/
 
 cp .profile /home/kazul/
@@ -37,6 +38,7 @@ cp .fehbg /home/kazul/
 cp Wallpapers/wallpaper_1920x1080.jpg /home/kazul/Wallpapers/
 
 chmod +x /home/kazul/.config/bspwm/bspwmrc
+chmod +x /home/kazul/.config/sxhkd/sxhkdrc
 chmod +x /home/kazul/.config/polybar/launch.sh
 chmod +x /home/kazul/.fehbg
 

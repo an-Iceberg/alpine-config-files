@@ -26,8 +26,8 @@ cp .config/polybar/launch.sh /home/kazul/.config/polybar/
 #cp .config/ranger/           /home/kazul/.config/ranger/
 cp .config/rofi/config       /home/kazul/.config/rofi/
 cp .config/rofi/config.rasi       /home/kazul/.config/rofi/
-cp .config/sxhkd/sxhkdrc     /home/kazul/.config/sxhkd/
-cp .config/powerline-shell/config.json     /home/kazul/.config/powerline-shell/
+#cp .config/powerline-shell/config.json     /home/kazul/.config/powerline-shell/
+cp .config/starship.toml /home/kazul/.config/
 
 cp .profile /home/kazul/
 cp .xinitrc /home/kazul/
@@ -38,6 +38,7 @@ cp Wallpapers/wallpaper_1920x1080.jpg /home/kazul/Wallpapers/
 
 chmod +x /home/kazul/.config/bspwm/bspwmrc
 chmod +x /home/kazul/.config/polybar/launch.sh
+chmod +x /home/kazul/.fehbg
 
 #curl https://raw.githubusercontent.com/oh-my-fish/oh-my-fish/master/bin/install | fish
 

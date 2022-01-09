@@ -13,7 +13,7 @@ symbol = " "
 
 [directory]
 disabled = false
-format = "[$path](bg:#6272a4 fg:#f8f8f2)"
+format = "[$path](bg:#6272a4 fg:#f1fa8c)"
 
 [character]
 disabled = false
@@ -29,16 +29,15 @@ time_format = "%H:%M  %a%e %b %Y"
 [username]
 disabled = false
 show_always = true
-format = "[$user](bg:#8be9fd fg:#44475a)"
+format = "[$user](bg:#8be9fd fg:#bd93f9)"
 
 [hostname]
 disabled = false
 ssh_only = false
-format = "[$hostname](bg:#8be9fd fg:#44475a)"
+format = "[$hostname](bg:#8be9fd fg:#bd93f9)"
 
 [git_branch]
 disabled = false
 always_show_remote = true
 format = "[](bg:#ff79c6 fg:#8be9fd)[$remote_name  $symbol$branch](bg:#ff79c6 fg:#21222c)[](bg:#8be9fd fg:#ff79c6)"
 symbol = ""
-

@@ -7,8 +7,8 @@ XTerm.termName: xterm-256color
 !*foreground: white
 !*background: black
 
-XTerm.vt100.faceName: Victor\ Mono\ Medium\ Nerd\ Font\ Complete:size=8
-XTerm.vt100.font: Victor\ Mono\ Medium\ Nerd\ Font\ Complete:size=8
+XTerm.vt100.faceName: Victor\ Mono\ Medium\ Nerd\ Font\ Complete:size=10
+XTerm.vt100.font: Victor\ Mono\ Medium\ Nerd\ Font\ Complete:size=10
 
 ! Dracula Xresources palette
 *.foreground: #F8F8F2

@@ -41,9 +41,7 @@ Plug 'APZelos/blamer.nvim'
 call plug#end()
 
 " autocmd VimEnter * NERDTree | wincmd p
-
 " autocmd BufEnter * if tabpagenr('$') == 1 && winnr('$') == 1 && exists('b:NERDTree') && b:NERDTree.isTabTree() | quit | end if
-
 " autocmd BufWinEnter * NERDTreeMirror
 
 colorscheme dracula
@@ -61,11 +59,11 @@ let g:cpp_simple_highlight=1
 
 highlight CursorLine ctermbg=Black cterm=NONE
 highlight CursorColumn ctermbg=Black
-highlight Comment cterm=italic ctermfg=Yellow
+"highlight Comment cterm=italic ctermfg=Yellow
 
 highlight CursorLine guibg=Black gui=NONE
 highlight CursorColumn guibg=Black
-highlight Comment gui=italic guifg=Yellow
+highlight Comment guifg=#f1fa8c guibg=#21222c
 
 autocmd VimEnter * RainbowParentheses
 " autocmd VimEnter * GitGutterEnable

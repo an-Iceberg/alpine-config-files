@@ -1,4 +1,4 @@
 TODO:
   - set feh background
   - set rofi color scheme
-  - run 'omf install https://github.com/dracula/fish'
+  - cargo install silicon

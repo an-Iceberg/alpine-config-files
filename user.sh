@@ -1,4 +1,5 @@
 #! /bin/sh
+me/kazul/Pictures/
 
 mkdir /home/kazul/.config
 mkdir /home/kazul/.config/bspwm
@@ -8,10 +9,10 @@ mkdir /home/kazul/.config/neofetch
 mkdir /home/kazul/.config/nvim
 mkdir /home/kazul/.config/picom
 mkdir /home/kazul/.config/polybar
-#mkdir /home/kazul/.config/ranger
 mkdir /home/kazul/.config/rofi
 mkdir /home/kazul/.config/sxhkd
 mkdir /home/kazul/.config/powerline-shell
+mkdir /home/kazul/Pictures
 
 mkdir /home/kazul/Wallpapers
 
@@ -23,10 +24,8 @@ cp .config/nvim/init.vim     /home/kazul/.config/nvim/
 cp .config/picom/picom.conf  /home/kazul/.config/picom/
 cp .config/polybar/config    /home/kazul/.config/polybar/
 cp .config/polybar/launch.sh /home/kazul/.config/polybar/
-#cp .config/ranger/           /home/kazul/.config/ranger/
 cp .config/rofi/config       /home/kazul/.config/rofi/
 cp .config/rofi/config.rasi       /home/kazul/.config/rofi/
-#cp .config/powerline-shell/config.json     /home/kazul/.config/powerline-shell/
 cp .config/sxhkd/sxhkdrc /home/kazul/.config/sxhkd/
 cp .config/starship.toml /home/kazul/.config/
 
@@ -48,3 +47,5 @@ curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
   https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 
 #pip install powerline-shell
+
+echo "don't forget to run 'cargo install silicon'"

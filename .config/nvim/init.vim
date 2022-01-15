@@ -30,7 +30,6 @@ Plug 'vim-airline/vim-airline-themes'
 Plug 'mattn/emmet-vim'
 Plug 'junegunn/fzf'
 Plug 'sheerun/vim-polyglot'
-Plug 'ap/vim-css-color'
 Plug 'ryanoasis/vim-devicons'
 Plug 'junegunn/fzf', { 'do:': { -> fzf#install() }}
 Plug 'junegunn/fzf.vim'
@@ -38,6 +37,18 @@ Plug 'airblade/vim-rooter'
 Plug 'Mofiqul/dracula.nvim'
 Plug 'junegunn/rainbow_parentheses.vim'
 Plug 'APZelos/blamer.nvim'
+Plug 'gregsexton/matchtag'
+
+Plug 'gorodinskiy/vim-coloresque'
+Plug 'ntpeters/vim-better-whitespace'
+Plug 'segeljakt/vim-silicon'
+Plug 'rhysd/vim-clang-format'
+Plug 'octol/vim-cpp-enhanced-highlight'
+Plug 'ryanoasis/vim-devicons'
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
+Plug 'sbdchd/neoformat'
+Plug 'scrooloose/nerdcommenter'
+Plug 'puremourning/vimspector'
 call plug#end()
 
 " autocmd VimEnter * NERDTree | wincmd p
@@ -56,6 +67,9 @@ let g:cpp_function_highlight=1
 let g:cpp_attributes_highlight=1
 let g:cpp_member_highlight=1
 let g:cpp_simple_highlight=1
+let g:coc_global_extensions = ['coc-json', 'coc-clangd']
+let g:silicon = { 'theme': 'Dracula', 'font': 'VictorMono NF', 'line-pad': 0, 'pad-horiz': 4, 'pad-vert': 4, 'line-number': v:true, 'round-corner': v:true, 'window-controls': v:false }
+let g:silicon['output'] = '/home/kazul/Pictures/silicon-{time:%Y-%m-%d-%H%M}.png'
 
 highlight CursorLine ctermbg=Black cterm=NONE
 highlight CursorColumn ctermbg=Black

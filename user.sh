@@ -1,5 +1,4 @@
 #! /bin/sh
-me/kazul/Pictures/
 
 mkdir /home/kazul/.config
 mkdir /home/kazul/.config/bspwm

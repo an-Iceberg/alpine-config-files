@@ -19,7 +19,7 @@ cp .config/bspwm/bspwmrc     /home/kazul/.config/bspwm/
 cp .config/fish/config.fish  /home/kazul/.config/fish/config.fish
 #cp .config/kitty/kitty.conf  /home/kazul/.config/kitty/kitty.conf
 #cp .config/neofetch/         /home/kazul/.config/neofetch/
-cp .config/nvim/init.vim     /home/kazul/.config/nvim/
+#cp .config/nvim/init.vim     /home/kazul/.config/nvim/
 cp .config/picom/picom.conf  /home/kazul/.config/picom/
 cp .config/polybar/config    /home/kazul/.config/polybar/
 cp .config/polybar/launch.sh /home/kazul/.config/polybar/
@@ -42,9 +42,9 @@ chmod +x /home/kazul/.fehbg
 
 #curl https://raw.githubusercontent.com/oh-my-fish/oh-my-fish/master/bin/install | fish
 
-curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
-  https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+#curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
+#  https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 
 #pip install powerline-shell
 
-echo "don't forget to run 'cargo install silicon'"
+#echo "don't forget to run 'cargo install silicon'"

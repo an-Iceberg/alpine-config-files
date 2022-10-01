@@ -13,3 +13,7 @@ adduser kazul wheel
 
 rc-service dbus start
 rc-update add dbus
+
+curl -O https://starship.rs/install.sh
+chmod +x install.sh
+./install.sh

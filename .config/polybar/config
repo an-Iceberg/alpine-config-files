@@ -13,7 +13,7 @@ alert = #ff5555
 
 ;monitor = ${env:MONITOR:HDMI-1}
 width = 100%
-height = 20
+height = 16
 radius = 0.0
 fixed-center = false
 
@@ -32,8 +32,8 @@ padding-right = 1
 module-margin-left = 0
 module-margin-right = 0
 
-font-0 = VictorMono\ NF:size=12;3
-font-1 = VictorMono\ NF:size=26;7
+font-0 = VictorMono\ NF:size=10;2
+font-1 = VictorMono\ NF:size=24;7
 ;font-2 = siji:pixelsize=10;1
 
 modules-left = bspwm

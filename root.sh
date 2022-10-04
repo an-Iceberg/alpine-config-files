@@ -5,7 +5,7 @@ apk upgrade
 
 setup-xorg-base
 
-apk add doas curl neovim bspwm sxhkd setxkbmap dbus dbus-x11 picom cmatrix htop btop fish lsblk neofetch feh polybar xrandr xterm kitty alacritty font-victor-mono-nerd setup-xorg-base #starship
+apk add doas curl neovim bspwm sxhkd setxkbmap dbus dbus-x11 picom cmatrix htop btop fish lsblk neofetch feh polybar xrandr xterm kitty alacritty pcmanfm spacefm font-victor-mono-nerd #starship
 
 adduser kazul video
 adduser kazul input
